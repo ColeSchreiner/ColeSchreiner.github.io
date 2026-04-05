@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<!--
+	Template uses Dopetrope by HTML5 UP
+-->
+<html>
+	<head>
+		<title>Cole Schreiner - Resume</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			#main .container {
+				width: min(1500px, calc(100vw - 3rem));
+			}
+
+			.resume-grid {
+				display: grid;
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+				gap: 1.5rem;
+				align-items: start;
+			}
+
+			.resume-panel {
+				background: #fff;
+				border: 1px solid #ddd;
+				border-radius: 6px;
+				padding: 1.25rem;
+				box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.05);
+			}
+
+			.resume-panel header {
+				text-align: center;
+				margin-bottom: 1.5rem;
+			}
+
+			.resume-panel h3 {
+				color: #2c3e50;
+				margin-bottom: 0.5rem;
+			}
+
+			.resume-panel p {
+				color: #7f8c8d;
+				margin-bottom: 0;
+			}
+
+			.resume-panel iframe {
+				width: 100%;
+				height: 760px;
+				border: 1px solid #ddd;
+				border-radius: 5px;
+				background: #fff;
+				display: block;
+			}
+
+			.resume-actions {
+				text-align: center;
+				padding-top: 1rem;
+			}
+
+			.resume-actions .button {
+				margin: 0 0.5rem 0.75rem;
+			}
+
+			@media screen and (max-width: 980px) {
+				#main .container {
+					width: min(100%, calc(100vw - 2rem));
+				}
+
+				.resume-grid {
+					grid-template-columns: 1fr;
+				}
+
+				.resume-panel iframe {
+					height: 700px;
+				}
+			}
+
+			@media screen and (max-width: 736px) {
+				.resume-panel {
+					padding: 1rem;
+				}
+
+				.resume-panel iframe {
+					height: 560px;
+				}
+			}
+		</style>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+		<!-- Header (populated by header.js) -->
+			<section id="header"></section>			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+								<!-- Content -->
+									<article class="box post">
+										<header style="text-align: center; margin-bottom: 40px;">
+											<h2 style="color: #2c3e50; font-size: 2.5em; margin-bottom: 15px;">
+												<i class="fas fa-file-pdf" style="color: #e74c3c; margin-right: 15px;"></i>
+												Resume / CV
+											</h2>
+											<p style="color: #7f8c8d; font-size: 1.2em;">View or download the latest resume and CV below</p>
+										</header>
+										
+										<section class="box">
+											<div class="resume-grid">
+												<section class="resume-panel">
+													<header>
+														<h3>Resume</h3>
+														<p>Concise experience summary for applications.</p>
+													</header>
+													<iframe src="resume/My_Resume.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=70"
+														title="Cole Schreiner Resume PDF Preview" allowfullscreen></iframe>
+													<footer class="resume-actions">
+														<a href="resume/My_Resume.pdf" class="button alt" download="Cole_Schreiner_Resume.pdf">
+															<i class="fas fa-download" style="margin-right: 8px;"></i>Download PDF
+														</a>
+														<a href="resume/My_Resume.pdf" target="_blank" class="button alt">
+															<i class="fas fa-external-link-alt" style="margin-right: 8px;"></i>Open in New Tab
+														</a>
+													</footer>
+												</section>
+												<section class="resume-panel">
+													<header>
+														<h3>CV</h3>
+														<p>Full academic and project background.</p>
+													</header>
+													<iframe src="CV/My_CV.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=70"
+														title="Cole Schreiner CV PDF Preview" allowfullscreen></iframe>
+													<footer class="resume-actions">
+														<a href="CV/My_CV.pdf" class="button alt" download="Cole_Schreiner_CV.pdf">
+															<i class="fas fa-download" style="margin-right: 8px;"></i>Download PDF
+														</a>
+														<a href="CV/My_CV.pdf" target="_blank" class="button alt">
+															<i class="fas fa-external-link-alt" style="margin-right: 8px;"></i>Open in New Tab
+														</a>
+													</footer>
+												</section>
+											</div>
+										</section>
+
+									</article>
+							</div>
+						</div>
+					</div>
+				</section>
+
+		<!-- Footer (populated by footer.js) -->
+			<section id="footer-placeholder"></section>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/header.js"></script>
+			<script src="assets/js/footer.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
