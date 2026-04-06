@@ -10,14 +10,12 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<style>
 			#main .container {
-				width: min(1500px, calc(100vw - 3rem));
+				width: min(1100px, calc(100vw - 3rem));
 			}
 
-			.resume-grid {
-				display: grid;
-				grid-template-columns: repeat(2, minmax(0, 1fr));
-				gap: 1.5rem;
-				align-items: start;
+			.resume-wrapper {
+				max-width: 960px;
+				margin: 0 auto;
 			}
 
 			.resume-panel {
@@ -26,21 +24,6 @@
 				border-radius: 6px;
 				padding: 1.25rem;
 				box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.05);
-			}
-
-			.resume-panel header {
-				text-align: center;
-				margin-bottom: 1.5rem;
-			}
-
-			.resume-panel h3 {
-				color: #2c3e50;
-				margin-bottom: 0.5rem;
-			}
-
-			.resume-panel p {
-				color: #7f8c8d;
-				margin-bottom: 0;
 			}
 
 			.resume-panel iframe {
@@ -64,10 +47,6 @@
 			@media screen and (max-width: 980px) {
 				#main .container {
 					width: min(100%, calc(100vw - 2rem));
-				}
-
-				.resume-grid {
-					grid-template-columns: 1fr;
 				}
 
 				.resume-panel iframe {
@@ -101,41 +80,21 @@
 										<header style="text-align: center; margin-bottom: 40px;">
 											<h2 style="color: #2c3e50; font-size: 2.5em; margin-bottom: 15px;">
 												<i class="fas fa-file-pdf" style="color: #e74c3c; margin-right: 15px;"></i>
-												Resume / CV
+												Resume
 											</h2>
-											<p style="color: #7f8c8d; font-size: 1.2em;">View or download the latest resume and CV below</p>
+											<p style="color: #7f8c8d; font-size: 1.2em;">View or download the latest resume below</p>
 										</header>
 										
 										<section class="box">
-											<div class="resume-grid">
+											<div class="resume-wrapper">
 												<section class="resume-panel">
-													<header>
-														<h3>Resume</h3>
-														<p>Concise experience summary for applications.</p>
-													</header>
-													<iframe src="resume/My_Resume.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=70"
+													<iframe src="resume/My_CV.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=70"
 														title="Cole Schreiner Resume PDF Preview" allowfullscreen></iframe>
 													<footer class="resume-actions">
-														<a href="resume/My_Resume.pdf" class="button alt" download="Cole_Schreiner_Resume.pdf">
+														<a href="resume/My_CV.pdf" class="button alt" download="Cole_Schreiner_Resume.pdf">
 															<i class="fas fa-download" style="margin-right: 8px;"></i>Download PDF
 														</a>
-														<a href="resume/My_Resume.pdf" target="_blank" class="button alt">
-															<i class="fas fa-external-link-alt" style="margin-right: 8px;"></i>Open in New Tab
-														</a>
-													</footer>
-												</section>
-												<section class="resume-panel">
-													<header>
-														<h3>CV</h3>
-														<p>Full academic and project background.</p>
-													</header>
-													<iframe src="CV/My_CV.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=70"
-														title="Cole Schreiner CV PDF Preview" allowfullscreen></iframe>
-													<footer class="resume-actions">
-														<a href="CV/My_CV.pdf" class="button alt" download="Cole_Schreiner_CV.pdf">
-															<i class="fas fa-download" style="margin-right: 8px;"></i>Download PDF
-														</a>
-														<a href="CV/My_CV.pdf" target="_blank" class="button alt">
+														<a href="resume/My_CV.pdf" target="_blank" class="button alt">
 															<i class="fas fa-external-link-alt" style="margin-right: 8px;"></i>Open in New Tab
 														</a>
 													</footer>

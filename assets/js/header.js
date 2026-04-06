@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 						</ul>
 					</li>
 					<li class="nav-coursework"><a href="${isProjectPage ? '../' : ''}index.html#coursework">Coursework</a></li>
-					<li class="nav-resume ${isResumePage ? 'current' : ''}"><a href="${isProjectPage ? '../resume-page.html' : 'resume-page.html'}">Resume/CV</a></li>
+					<li class="nav-resume ${isResumePage ? 'current' : ''}"><a href="${isProjectPage ? '../resume-page.html' : 'resume-page.html'}">Resume</a></li>
 					<li class="nav-contact"><a href="${isProjectPage ? '../' : ''}index.html#contact">Contact</a></li>
 				</ul>
 			</nav>

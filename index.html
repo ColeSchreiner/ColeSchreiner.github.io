@@ -279,8 +279,8 @@
 						// Show the preview section
 						previewSection.style.display = 'block';
 						
-						// Look for your PDF file
-						const pdfPath = 'resume/My_Resume.pdf';
+						// Use the single hosted PDF for resume preview and download.
+						const pdfPath = 'resume/My_CV.pdf';
 						
 						try {
 							const response = await fetch(pdfPath, { method: 'HEAD' });
@@ -311,7 +311,7 @@
 										<h3 style="color: #666; margin-bottom: 20px;">📄 Resume Not Found</h3>
 										<p style="color: #888; margin-bottom: 20px;">Please add your resume PDF file:</p>
 										<code style="background: #f5f5f5; padding: 10px; border-radius: 3px; display: block; margin: 20px auto; max-width: 400px;">
-											resume/My_Resume.pdf
+											resume/My_CV.pdf
 										</code>
 										<p style="color: #666; font-size: 14px;">Once you add the file, refresh the page and click "View Resume" again.</p>
 									</div>
@@ -324,7 +324,7 @@
 									<h3 style="color: #666; margin-bottom: 20px;">📄 Add Your Resume</h3>
 									<p style="color: #888;">Drop your PDF file here:</p>
 									<code style="background: #f5f5f5; padding: 10px; border-radius: 3px; display: block; margin: 20px auto; max-width: 400px;">
-										C:\\Users\\ColeS\\Desktop\\ColeSchreiner.github.io\\resume\\My_Resume.pdf
+										C:\\Users\\ColeS\\Desktop\\ColeSchreiner.github.io\\resume\\My_CV.pdf
 									</code>
 								</div>
 							`;
